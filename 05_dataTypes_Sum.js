@@ -25,4 +25,29 @@ const myfunct = function(){ //creating function
     
 }
 myfunct();//calling function
+
+
+//++++++++++++++++++++ MEMORY +++++++++++++++++++++++++
+
+//Stack(Premitive Data Types) copy data will be change
+//Heap(Non-Premitive Data Types) orignal data will be change
+let A = "Prem"
+let B = A
+console.log(A, B);
+B = "Ramesh"
+console.log(A, B);
+
+
+
+let userOne = {
+    email: "UserOne@github.com",
+    UpiId: "Shastrijii@pingpay",
+    nameOne:"Shastri"
+}
+let userTwo = userOne
+userTwo.UpiId = "8533099925@ptsbi"
+
+console.log(userTwo.UpiId);
+
+console.log(userOne.UpiId);
 */
