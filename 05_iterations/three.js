@@ -1,5 +1,4 @@
-// For of
-
+// For of Loop
 /*
 const arr = [1, 2, 3, 4, 5]
 for (const i of arr) {
@@ -15,28 +14,27 @@ for(const k of greet){
 */
 
 //Maps
+// const key = new Map()
+// key.set('MTJ', "Mathura")
+// key.set('ASR',"Amritsar")
+// key.set('NZM',"Nizamuddin")
+// console.log(key)
 
-// const ji = new Map()
-// ji.set('IN', "India")
-// ji.set('USA', "United States of America")
-// ji.set('Fr', "France")
 
-// console.log(ji)
+//Loop on Map()
+// for(const k of key){
+//     console.log(k)
+// }
 
-/*
-for(const k of ji){
-    console.log(k)
-}
-*/
 
-/*
+
 //Break down Map values:-
+// for(const [k, v]of key){
+//     console.log(k, ':-', v);
+// }
 
-for(const [k, v]of ji){
-    console.log(k, ':-', v);
-}
-*/
 
+// For Loop On Object
 // const myObj = {
 //     'game1':'NFS',
 //     'game2':'Spiderman'
