@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM Learning</title>
+    <style>
+        .Bg-Black{
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div style="color: orange; padding: 15px;" class="Bg-Black">
+        <h1 id="title" class="heading">DOM Learning with Hitesh chaudhary <span style="display: none;">This is span</span></h1>
+        <p>Lorem ipsum dolor sit amet consectetur</p>
+        <input type="password" name="" id="">
+
+        <ul class="numbers">
+            <li class="Nums">one</li>
+            <li class="Nums">two</li>
+            <li class="Nums">three</li>
+            <li class="Nums">four</li>
+        </ul>
+    </div>
+</body>
+</html>
+
+
+
+
+<!-- 
+
+.innerText:- shows all text thatshown on screen, while
+.textContent:- shows with not displayable or hide text also
+.innerHtml:- shows shows with HTML tags
+
+
+-->
+
+<!--
+
+Document Object Model:
+
+document.getElementById(' ')
+In this document reffres to whole page of site and .getElementById('')  needs a parameter of I'd name used in HTML code.
+Ex.    <h1 id="title" class="heading"> Heading1</h1>
+
+document.getElementById(' ').class
+O/P:- undefined
+
+document.getElementById(' ').className
+O/P:- 'heading1'
+
+document.getElementById(' ').getAtrribute('id')
+O/P:- 'title'
+
+document.getElementById(' ').getAttribute('class')
+O/P:- 'heading1'
+
+document.getElementById(' ').setAttribute('class', 'test')
+<h1 id="title" class="test"> Heading1</h1>
+
+
+const title = document.getElementById(' title')
+title.style.backgroundColor = 'green'
+title.style.padding = "5px"
+title.style.borderRadius = "5px"
+
+
+EXTRACT CONTENT:>
+
+<h1 id="title" class="test heading" style="background-color: green; padding: 5px; border-radius: 5px">DOM Learning sachchu  <span style="display: none">hide text</span> </h1>
+
+title.textContent
+O/p:  'DOM Learning sachchu hide text'
+
+
+title.innerText
+O/p:  'DOM Learning sachchu'
+
+
+title.innerHTML
+O/p:  DOM Learning sachchu <span style="display: none">hide text</span>
+
+-->
